@@ -26,7 +26,7 @@ jobs:
           cp wrangler.toml wrangler.toml.bak
           
           # 2. 拉取上游代码
-          git remote add upstream https://github.com || true
+          git remote add upstream https://github.com/a6216abcd/Free-Residential-IP-Proxy-Controller.git || true
           git fetch upstream
           
           # 3. 强行合并上游更新（如果遇到 wrangler.toml 冲突，优先使用原作者的以保证顺利合并）
